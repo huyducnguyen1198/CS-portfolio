@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'tbd',
+  url: 'https://huyducnguyen1198.github.io/CS-portfolio/',
   linkedin: 'https://www.linkedin.com/in/huyducnguyen1198/',
   github: 'https://github.com/huyducnguyen1198',
 };
