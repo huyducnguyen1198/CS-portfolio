@@ -4,6 +4,9 @@ import { GithubUserType } from '../types';
 import SocialLinks from './SocialLinks';
 
 const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
+  if(!location || location === null || location.length === 0) {
+    location = 'Salt Lake City, UT';
+  }
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">
