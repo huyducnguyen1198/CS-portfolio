@@ -34,7 +34,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'Data-Machine Learning Scientist, Fullstack and Software Developer',
+  subTitle: 'Data Analyst, Machine Learning Scientist, Fullstack and Software Developer',
   data: [
     {
       title: 'Full Stack Development',
