@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'reactstrap';
 import FeedbackCard from '../components/FeedbackCard';
 
 const Feedbacks = () => {
+  if(!feedbacks || feedbacks.length === 0) return (<></>);
   return (
     feedbacks && (
       <section className="section section-lg">

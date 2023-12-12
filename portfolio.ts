@@ -12,55 +12,47 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Huy Nguyen',
+  title: "Hi all, I'm Huy Nguyen",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "I'm an spiring Computer Science major with a strong foundation in software development and problem-solving, actively seeking internships or part-time roles in Software Engineering, Software Development, Data Science, or Deep Learning.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://docs.google.com/document/d/1DdrnA7r4DXKh2iGTgdVjGlEv177PJ93D5P9FNTR_4dI/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'huyducnguyen1198',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'tbd',
+  linkedin: 'https://www.linkedin.com/in/huyducnguyen1198/',
+  github: 'https://github.com/huyducnguyen1198',
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Data-Machine Learning Scientist, Fullstack and Software Developer',
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: '/lottie/skills/dataAnalys.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Perform data analysis and visualization using Python, Pandas, Numpy, Matplotlib, and Seaborn'
+        ),
+        emoji(
+          '⚡ Building Machine Learning models using Scikit-Learn, Keras, and Tensorflow'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
         emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'JavaScript',
-          iconifyTag: 'logos:javascript',
+          skillName: 'typescript',
+          iconifyTag: 'logos:typescript-icon',
         },
         {
           skillName: 'Reactjs',
@@ -78,22 +70,31 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Django',
           iconifyTag: 'vscode-icons:file-type-django',
         },
-
         {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
+          skillName: 'sklearn',
+          iconifyTag: 'logos:scikit-learn',
         },
         {
-          skillName: 'NPM',
-          iconifyTag: 'logos:npm-icon',
+          skillName: 'numpy',
+          iconifyTag: 'logos:numpy',
         },
         {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
+          skillName: 'pandas',
+          iconifyTag: 'logos:pandas',
         },
+        {
+          skillName: 'matplotlib',
+          iconifyTag: 'logos:matplotlib',
+        },
+        {
+          skillName: 'tensorflow',
+          iconifyTag: 'logos:tensorflow',
+        }
       ],
-    },
-    {
+    }
+
+    /**
+     * { add more as i learn more in the future
       title: 'Cloud Infra-Architecture',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
@@ -189,14 +190,14 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:ganache-icon',
         },
       ],
-    },
+    },*/
   ],
 };
 
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '60', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
@@ -204,25 +205,32 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Programming',
-    progressPercentage: '60',
+    progressPercentage: '70',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'Weber State University',
+    subHeader: 'Bachelor of Science in Computer Science',
+    duration: 'January 2023 - January 2025',
+    desc: 'Focusing of Data Science and Machine Learning',
+    grade: 'Grade A - 3.6 GPA',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
+  {
+    role: 'Sous Chef',
+    company: 'Vietnamese Restaurant',
+    companyLogo: '',
+    date: 'June 2017 – 2018',
+    desc: 'I worked as a Sous Chef to prepare and cook Vietnamese food for customers. I also managed the kitchen and trained new employees.',
+  }
+  /**
   {
     role: 'Frontend Developer',
     company: 'Duseca Software',
@@ -254,35 +262,31 @@ export const experience: ExperienceType[] = [
     companyLogo: '/img/icons/common/wapidu.jpg',
     date: 'Sept 2021',
     desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
-  },
-];
+  },  */
 
+];
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Recomendation System',
+    desc: 'A recommendation system is a type of information filtering system using Pandas and sklearn(KNN, SVD, KMeans, etc.) to recommend movies to users based on their previous ratings. The app is built with Django as backend and React-Typescript as frontend.',
+    github: 'https://github.com/huyducnguyen1198/CS4580RecommendationEngine',
+    link: ''
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'PostgreSQL Database with Prisma',
+    desc: 'A Database with RESTapi for a online game developed with PostgreSQL and Prisma.',
+    github: 'https://github.com/huyducnguyen1198/CS3750/tree/main/RestAPITanstack/restapi',
   },
+
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Stock Market Prediction',
+    desc: 'A stock analysis on NVIDIA, and predictions using XGBoost, LSTM, and SVR.',
+    github: 'https://github.com/huyducnguyen1198/CS4580_StockMarket_EDA_Prediction',
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
+export const feedbacks: FeedbackType[] = [/*
+{  
     name: 'John Smith',
     feedback:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
@@ -291,7 +295,7 @@ export const feedbacks: FeedbackType[] = [
     name: 'John Smith',
     feedback:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
+  },*/
 ];
 
 // option to hide or show the ContactUs component
@@ -299,12 +303,14 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Huy Nguyen | Software Developer',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+    'A passionante Data-Machine Learning Scientist, Fullstack and Software Developer.',
+  keywords:[],
+  /*image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
+    author: 'Hanzla Tauqeer',
+
   keywords: [
     'Hanzla',
     'Hanzla Tauqeer',
@@ -313,5 +319,5 @@ export const seoData: SEODataType = {
     'Portfolio',
     'Hanzla Portfolio ',
     'Hanzla Tauqeer Portfolio',
-  ],
+  ],*/
 };
