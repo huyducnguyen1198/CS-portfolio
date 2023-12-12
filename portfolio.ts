@@ -220,6 +220,16 @@ export const educationInfo: EducationType[] = [
       
     ],
   },
+  {
+    schoolName: 'Salt Lake Community College',
+    subHeader: 'Associate of Science in Computer Science',
+    duration: 'August 2019 - December 2022',
+    desc: 'Focusing of Data Science and Machine Learning',
+    grade: 'Grade A - 3.7 GPA',
+    descBullets: [
+      
+    ],
+  }
 ];
 
 export const experience: ExperienceType[] = [
