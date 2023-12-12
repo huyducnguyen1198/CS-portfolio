@@ -1,5 +1,7 @@
 module.exports = {
   reactStrictMode: false,
 
-  output: 'standalone'
+  output: 'standalone',
+  distDir: 'build',
 };
+
