@@ -6783,7 +6783,7 @@ button.bg-dark:focus {
 }
 
 .bg-default {
-	background-color: #172b4d !important;
+	background-color: #fb6340 !important;
 }
 
 a.bg-default:hover,
@@ -20481,7 +20481,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .headroom--not-top {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
-	background-color: #172b4d !important;
+	background: linear-gradient(35deg, #fbb140 0, #fb6340  100%) !important;
 	box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1);
 }
 
