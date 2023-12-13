@@ -1,5 +1,9 @@
 module.exports = {
   reactStrictMode: false,
-  distDir: 'build',
+  images:{
+    path: '/',
+  },
+  output: 'export',
+
 };
 
