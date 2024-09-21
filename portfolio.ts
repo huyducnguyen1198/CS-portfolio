@@ -214,7 +214,7 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Weber State University',
     subHeader: 'Bachelor of Science in Computer Science',
     duration: 'January 2023 - January 2025',
-    desc: 'Focusing of Data Science and Machine Learning',
+    desc: 'Recipient of a 4-year academic Scholarship. Focusing of Data Science and Machine Learning',
     grade: 'Grade A - 3.6 GPA',
     descBullets: [
       
@@ -233,10 +233,18 @@ export const educationInfo: EducationType[] = [
 ];
 
 export const experience: ExperienceType[] = [
+	{
+		role: "Data Science Associate",
+		company: "Pulselabs, Utah",
+		companyLogo: "/img/icons/common/pl-tab-logo.svg",
+		date: "June 2024 – Present",
+		desc: "Conducting research on a novel project utilizing OpenCV to capture and analyze visual behaviors of Large Language Models (LLMs). Applying statistical methods to extract, quantify, and interpret various behavioral metrics. Previously worked on developing a recommendation system using Pandas and scikit-learn (KNN, SVD, KMeans) for personalized movie suggestions, built with Django (backend) and React-Typescript (frontend)."
+	},
+
   {
     role: 'Sous Chef',
     company: 'Vietnamese Restaurant',
-    companyLogo: '',
+    companyLogo: '/img/icons/common/chef.png',
     date: 'June 2017 – 2018',
     desc: 'I worked as a Sous Chef to prepare and cook Vietnamese food for customers. I also managed the kitchen and trained new employees.',
   }
@@ -276,6 +284,12 @@ export const experience: ExperienceType[] = [
 
 ];
 export const projects: ProjectType[] = [
+	{
+		name: "Pulselabs, Utah: Data Science Associate",
+		desc: "Conducting research on a novel project utilizing OpenCV to capture and analyze visual representations of Large Language Models (LLMs). Applying advanced statistical techniques to extract, quantify, and interpret behavioral metrics. Previous project experience includes developing a recommendation system using Pandas and scikit-learn (KNN, SVD, KMeans) for personalized movie suggestions, built with Django (backend) and React-Typescript (frontend).",
+		github:  "Internal GitHub Repository",
+		link: ""
+	},
   {
     name: 'Recomendation System',
     desc: 'A recommendation system is a type of information filtering system using Pandas and sklearn(KNN, SVD, KMeans, etc.) to recommend movies to users based on their previous ratings. The app is built with Django as backend and React-Typescript as frontend.',
