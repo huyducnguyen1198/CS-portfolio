@@ -236,7 +236,7 @@ export const experience: ExperienceType[] = [
 	{
 		role: "Data Science Associate",
 		company: "Pulselabs, Utah",
-		companyLogo: "img/icons/common/bleedAI.jpg",
+		companyLogo: "img/icons/common/pl-tab-logo.jpg",
 		date: "June 2024 – Present",
 		desc: "Conducting research on a novel project utilizing OpenCV to capture and analyze visual behaviors of Large Language Models (LLMs). Applying statistical methods to extract, quantify, and interpret various behavioral metrics. Previously worked on developing a recommendation system using Pandas and scikit-learn (KNN, SVD, KMeans) for personalized movie suggestions, built with Django (backend) and React-Typescript (frontend)."
 	},
